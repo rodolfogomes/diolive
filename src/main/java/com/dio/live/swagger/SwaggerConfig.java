@@ -19,7 +19,7 @@ import java.util.Collections;
 
 @Configuration
 @EnableSwagger2
-public class SwaggerCongig {
+class SwaggerCongig {
     @Bean
     public Docket apiAdmin() {
         return new Docket(DocumentationType.SWAGGER_2)
